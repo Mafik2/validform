@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sing in</title>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="d-flex flex-row-reverse bd-highlight">
+
+    <div class="singindiv">
+        <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+        </svg>
+        </div>
+        <h1>Sing in</h1>
+        <div>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="usrname">Username</label>
+                    <input type="text" id="usrname" name="usrname" required>
+
+                    <label for="psw">Password</label>
+                    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="message">
+                <p id="length" class="invalid"> Password must contain a Minimum 8 characters.</p>
+                <p id="capital" class="invalid"> Password must contain a capital letter.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="vh-100 flex-grow-1 image d-none d-sm-block">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+</html>
