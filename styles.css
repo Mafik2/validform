@@ -11146,8 +11146,8 @@ label {
 input {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid black;
+  border-radius: 30px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;

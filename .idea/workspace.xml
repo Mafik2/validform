@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3787b761-7bf4-4b9d-a9e6-f0af73074f9b" name="Changes" comment="" />
+    <list default="true" id="3787b761-7bf4-4b9d-a9e6-f0af73074f9b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/script.js" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -24,6 +31,7 @@
     <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="22H7nTT2JYReSfSI3u3k7aaseNz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,11 +60,22 @@
       <workItem from="1640875725768" duration="2040000" />
       <workItem from="1640963314525" duration="1762000" />
       <workItem from="1641129969628" duration="7092000" />
-      <workItem from="1641206896930" duration="9133000" />
+      <workItem from="1641206896930" duration="9794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
